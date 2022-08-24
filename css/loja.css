@@ -72,10 +72,16 @@ body
     .topnav, .sellcard, .header, .compra, .valor, .descricao
     {
         display: block;
+        font-size: 2vw;
 
     }
     .sellcard > img{
-        width: 50%;
+        width: 100%;
+    }
+    .topnav > a
+    {
+        display: block;
+        font-size: 2vw;
     }
 }
 
@@ -87,10 +93,11 @@ body
     .topnav, .sellcard, .header, .compra, .valor, .descricao
     {
         display: block;
+        font-size: 2vw;
 
     }
     .sellcard > img{
-        width: 50%;
+        width: 100%;
     }
 }
 @media (min-width: 1180px) and (max-width: 820), (orientation: landscape)
@@ -101,9 +108,9 @@ body
     .topnav, .sellcard, .header, .compra, .valor, .descricao
     {
         display: block;
-
+        font-size: 2vw;
     }
     .sellcard > img{
-        width: 50%;
+        width: 100%;
     }
 }
