@@ -64,85 +64,46 @@ body
 {
     background-color: aliceblue
 }
-@media (min-width: 250px) and (max-width: 1368)
+@media (min-width: 2033px) and (max-width: 1251)
 {
-    .topnav
-    {
-        display: block;
+    row > div:first-child{
+        text-align: center;
     }
-    .sellcard
+    .topnav, .sellcard, .header, .compra, .valor, .descricao
     {
         display: block;
+
     }
-    .header
-    {
-        display: block;
+    .sellcard > img{
+        width: 50%;
     }
-    .descricao
-    {
-        display: block;
-    }
-    .compra
-    {
-        display: block;
-    }
-    .valor
-    {
-        display: block;
-    }   
 }
 
-@media (min-width: 250px) and (max-width: 1368), (orientation: portrait)
+@media (min-width: 820px) and (max-width: 1180), (orientation: portrait)
 {
-    .topnav
-    {
-        display: block;
+    row > div:first-child{
+        text-align: center;
     }
-    .sellcard
+    .topnav, .sellcard, .header, .compra, .valor, .descricao
     {
         display: block;
+
     }
-    .header
-    {
-        display: block;
+    .sellcard > img{
+        width: 50%;
     }
-    .descricao
-    {
-        display: block;
-    }
-    .compra
-    {
-        display: block;
-    }
-    .valor
-    {
-        display: block;
-    }   
 }
-@media (min-width: 250px) and (max-width: 1368), (orientation: landscape)
+@media (min-width: 1180px) and (max-width: 820), (orientation: landscape)
 {
-    .topnav
-    {
-        display: block;
+    row > div:first-child{
+        text-align: center;
     }
-    .sellcard
+    .topnav, .sellcard, .header, .compra, .valor, .descricao
     {
         display: block;
+
     }
-    .header
-    {
-        display: block;
+    .sellcard > img{
+        width: 50%;
     }
-    .descricao
-    {
-        display: block;
-    }
-    .compra
-    {
-        display: block;
-    }
-    .valor
-    {
-        display: block;
-    }   
 }
